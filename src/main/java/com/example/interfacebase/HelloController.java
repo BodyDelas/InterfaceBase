@@ -50,7 +50,7 @@ public class HelloController {
                 System.out.println("Login and password is empty");
         });
 
-        loginSignUpButton.setOnAction(event -> {// для нажимания на кнопку зарегестрироваться
+        loginSignUpButton.setOnAction(event -> {
             loginSignUpButton.getScene().getWindow().hide();
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/com/example/interfacebase/signUp.fxml"));
